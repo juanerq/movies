@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/register.css">
+    <title>Registro</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/logo.png">
+            <h3>Horror<br>Movies</h3>
+        </div>
+        
+        <div class="page">
+            <a href="index.html">Inicio</a>
+            <a href="register.html">Registro</a>
+        </div>
+    </nav>
+    <section>
+        <div class="register">
+            <form>
+                <h1>Registro</h1>
+                <input type="text" id="name" placeholder="&#xf007;  Nombre Completo">
+                <input type="text" id="user" placeholder="&#xf2bd;  Nombre de Usuario">
+                <input type="email" id="emailr" placeholder="&#xf0e0;  Correo">
+                <input type="password" id="passwordr" placeholder="&#xf023;  Contraseña">
+                <button type="button" onclick="register()">Enviar</button>
+            </form>
+        </div>
+
+
+        <div class="login">
+            <form>
+                <h1>Iniciar Sesión</h1>
+                <input type="email" id="emaill" placeholder="&#xf0e0;  Correo">
+                <input type="password" id="passwordl" placeholder="&#xf023;  Contraseña">
+
+                <button type="button" onclick="">Log In</button>
+            </form>
+        </div>
+    </section>
+    <script src="js/registro.js"></script>
+</body>
+</html>
